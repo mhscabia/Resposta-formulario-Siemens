@@ -2,7 +2,7 @@
 
 int main(){
 
-char num[6];
+char num[6]; //limite de 6 por que a maior palavra é FooBaa, de 6 letras
 
 for (int i = 1; i <= 100; i++){
     sprintf(num, "%i", i);
